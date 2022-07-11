@@ -1,0 +1,66 @@
+HTML -
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4ea9f4c152.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body>
+    <main class="container">
+        <h2>Login</h2>
+        <form action="">
+            <div class="input-field">
+                <input type="text" name="username" id="username"
+                    placeholder="Enter Your Username">
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-field">
+                <input type="text" name="password" id="password"
+                    placeholder="Enter Your Password">
+                    <div id="icon" onclick="showHide()"></div>
+                <div class="underline"></div>
+            </div>
+
+            <input type="submit" value="SIGN IN">
+        </form>
+
+        <div class="footer">
+            <div class="new-user">
+                <p> New user ? <a href="#"> Click here </a>
+            </div>
+            <span>Or Sign In With Social Media </span>
+            <div class="social-fields">
+                <div class="twitter">
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                        Sign in with Twitter
+                    </a>
+                </div>
+
+                <div class="facebook">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        Sign in with Facebook
+                    </a>
+                </div>
+                <div class="google">
+                    <a href="#">
+                        <i class="fa-brands fa-google"></i>
+                        Sign in with Google
+                    </a>
+                </div>
+                <div class="copyright">
+                    <p>Leonardo Passos &copy; 2022</p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
